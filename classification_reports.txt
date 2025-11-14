@@ -1,0 +1,43 @@
+DETAILED CLASSIFICATION REPORTS
+============================================================
+
+SVM:
+                  precision    recall  f1-score   support
+
+          animal       0.08      0.91      0.15       148
+         bicycle       0.65      0.49      0.56      3000
+             bus       0.80      0.87      0.83      3000
+             car       0.79      0.87      0.83      3000
+   large_vehicle       0.72      0.84      0.77      3000
+      motorcycle       0.72      0.40      0.51      2707
+   other_dynamic       0.86      0.65      0.74      3000
+      pedestrian       0.48      0.50      0.49      3000
+pedestrian_group       0.56      0.48      0.52      3000
+          static       0.84      0.86      0.85      3000
+           train       0.62      0.87      0.73      1735
+           truck       0.89      0.74      0.81      3000
+
+        accuracy                           0.69     31590
+       macro avg       0.67      0.71      0.65     31590
+    weighted avg       0.72      0.69      0.69     31590
+
+Random Forest:
+                  precision    recall  f1-score   support
+
+          animal       0.88      0.77      0.82       148
+         bicycle       0.93      0.94      0.93      3000
+             bus       0.95      0.97      0.96      3000
+             car       0.98      0.97      0.98      3000
+   large_vehicle       0.95      0.97      0.96      3000
+      motorcycle       0.96      0.92      0.94      2707
+   other_dynamic       0.97      0.97      0.97      3000
+      pedestrian       0.89      0.90      0.89      3000
+pedestrian_group       0.91      0.87      0.89      3000
+          static       0.96      0.97      0.97      3000
+           train       0.92      0.96      0.94      1735
+           truck       0.98      0.97      0.98      3000
+
+        accuracy                           0.95     31590
+       macro avg       0.94      0.93      0.93     31590
+    weighted avg       0.95      0.95      0.95     31590
+

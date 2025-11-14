@@ -1,0 +1,5 @@
+Random Forest Results:
+Accuracy:  94.52%
+Precision: 94.52%
+Recall:    94.52%
+F1-Score:  94.51%
